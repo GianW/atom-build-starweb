@@ -1,17 +1,25 @@
 {
   "name": "atom-build-starweb",
   "main": "./lib/atom-build-starweb",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "A Starweb builder for Atom.",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "atom-build-starweb:toggle"
   },
-  "repository": "https://github.com/atom/atom-build-starweb",
+  "repository": "https://github.com/fator7/atom-build-starweb",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Builds Starweb files",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
   },
   "dependencies": {
   }
