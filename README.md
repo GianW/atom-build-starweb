@@ -1,5 +1,9 @@
 # atom-build-starweb package
 
-A short description of your package.
+## Install
+`$ apm install fator7/atom-build-starweb`
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+## Contribute
+Feel free to [submit a pull request](https://github.com/fator7/atom-build-starweb/compare), [open an issue](https://github.com/fator7/atom-build-starweb/issues/new) or [join us on #atom](https://fator7.slack.com/messages/atom/). :)
+
+We track our features on [Trello](https://trello.com/b/aFHKqGua/atom).
